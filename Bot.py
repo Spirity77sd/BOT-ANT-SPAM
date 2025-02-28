@@ -35,3 +35,8 @@ async def on_message(message):
     await bot.process_commands(message)
 
 bot.run(TOKEN)
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
