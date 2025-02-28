@@ -39,9 +39,4 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("MTM0NTA3NjAyMDg0MzM4MDc0Ng.GGGkm0.w6dgUcJCTdKYZlZcJeaIE2CP8WaXA7pX__EdYU")
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
