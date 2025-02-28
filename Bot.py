@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN = "MTM0NTA3NjAyMDg0MzM4MDc0Ng.Gn598c.1onvlkWS233CgdC_GPSRZCNyl4ZeSrlEcCMCds"
+TOKEN = "MTM0NTA3NjAyMDg0MzM4MDc0Ng.GNLg--.-DOOfmwCTmKNVhAPkJg3USeuwQLELjni-LkzA8"
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -34,4 +34,4 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-bot.run(TOKEN)
+bot.run "MTM0NTA3NjAyMDg0MzM4MDc0Ng.GjmkDX.c1m_qdNEmkIWfyZjhoRY3XYFwwU0cBGhEc8hEc"
