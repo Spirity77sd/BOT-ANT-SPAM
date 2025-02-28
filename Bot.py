@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN = "MTM0NTA3NjAyMDg0MzM4MDc0Ng.GjmkDX.c1m_qdNEmkIWfyZjhoRY3XYFwwU0cBGhEc8hEc"
+TOKEN = "MTM0NTA3NjAyMDg0MzM4MDc0Ng.GGGkm0.w6dgUcJCTdKYZlZcJeaIE2CP8WaXA7pX__EdYU"
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -39,4 +39,4 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("MTM0NTA3NjAyMDg0MzM4MDc0Ng.GGGkm0.w6dgUcJCTdKYZlZcJeaIE2CP8WaXA7pX__EdYU")
